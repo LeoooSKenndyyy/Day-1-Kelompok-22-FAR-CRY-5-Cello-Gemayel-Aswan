@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Teknologi di Sekitar Kita | Cello Gemayel Aswan</title>
+<meta name="description" content="Halaman sederhana tentang teknologi oleh Cello Gemayel Aswan, RKS 1B.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;700&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --latar:#EEF3F1;
+  --tinta:#10312B;
+  --jingga:#FF6B35;
+  --putih:#FFFFFF;
+  --display:"Familjen Grotesk","Trebuchet MS",Arial,sans-serif;
+  --body:"Instrument Sans",Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);font-size:1.0625rem;line-height:1.65;color:var(--tinta);background:var(--latar)}
+:focus-visible{outline:3px solid var(--jingga);outline-offset:3px}
+.wrap{max-width:62rem;margin:0 auto;padding:0 1.25rem}
+
+.hero{padding:4rem 0 4.5rem;border-bottom:2px solid var(--tinta)}
+.hero .wrap{display:grid;grid-template-columns:1.5fr 1fr;gap:3rem;align-items:end}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(2.6rem,8vw,5.5rem);line-height:.98;letter-spacing:-.03em}
+.hero p{margin-top:1.5rem;max-width:30rem;font-size:1.15rem}
+
+.kartu{background:var(--putih);border:2px solid var(--tinta);border-radius:.5rem;padding:1.5rem;box-shadow:6px 6px 0 var(--jingga)}
+.kartu h2{font-family:var(--display);font-size:1.5rem;line-height:1.15;margin-bottom:1rem}
+.kartu dl{display:grid;gap:.75rem}
+.kartu dt{font-size:.9rem;opacity:.7}
+.kartu dd{margin:0;font-weight:600}
+
+section{padding:4rem 0}
+h2.judul{font-family:var(--display);font-weight:700;font-size:clamp(1.9rem,4.5vw,2.75rem);line-height:1.1;letter-spacing:-.02em;margin-bottom:2rem}
+
+.daftar{list-style:none;padding:0}
+.daftar li{display:grid;grid-template-columns:1fr 1.6fr;gap:.5rem 3rem;padding:1.4rem 0;border-top:2px solid var(--tinta)}
+.daftar li:last-child{border-bottom:2px solid var(--tinta)}
+.daftar h3{font-family:var(--display);font-size:1.5rem;line-height:1.15}
+
+.manfaat{background:var(--tinta);color:var(--latar)}
+.manfaat ul{padding-left:1.25rem;max-width:36rem}
+.manfaat li{margin-bottom:.6rem}
+.manfaat li::marker{color:var(--jingga)}
+
+footer{padding:1.5rem 0;font-size:.95rem}
+
+@media(max-width:720px){
+  .hero .wrap,.daftar li{grid-template-columns:1fr}
+  .hero{padding:2.5rem 0 3rem}
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div>
+      <h1>Teknologi di sekitar kita</h1>
+      <p>Teknologi adalah alat dan pengetahuan yang dipakai manusia untuk mempermudah pekerjaan. Halaman ini membahas empat contoh yang kita pakai setiap hari.</p>
+    </div>
+    <aside class="kartu" aria-label="Identitas pembuat">
+      <h2>Cello Gemayel Aswan</h2>
+      <dl>
+        <div><dt>NIM</dt><dd>2607441028</dd></div>
+        <div><dt>Kelas</dt><dd>RKS 1B</dd></div>
+      </dl>
+    </aside>
+  </div>
+</header>
+
+<main>
+  <section>
+    <div class="wrap">
+      <h2 class="judul">Contoh teknologi yang sering kita pakai</h2>
+      <ul class="daftar">
+        <li>
+          <h3>Kecerdasan buatan (AI)</h3>
+          <p>Program komputer yang bisa belajar dari data, misalnya untuk menjawab pertanyaan, menerjemahkan, atau mengenali wajah dan suara.</p>
+        </li>
+        <li>
+          <h3>Internet</h3>
+          <p>Jaringan yang menghubungkan jutaan perangkat di seluruh dunia, sehingga kita bisa mencari informasi, belajar, dan berkomunikasi dari mana saja.</p>
+        </li>
+        <li>
+          <h3>Komputasi awan (cloud)</h3>
+          <p>Menyimpan dan mengolah data di server milik penyedia layanan, bukan di perangkat sendiri. Contohnya Google Drive dan layanan hosting.</p>
+        </li>
+        <li>
+          <h3>Internet of Things (IoT)</h3>
+          <p>Benda sehari-hari yang terhubung ke internet, seperti lampu pintar, jam tangan pintar, dan sensor di pertanian.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="manfaat">
+    <div class="wrap">
+      <h2 class="judul">Manfaat teknologi</h2>
+      <ul>
+        <li>Pekerjaan jadi lebih cepat dan efisien.</li>
+        <li>Informasi dan pendidikan lebih mudah dijangkau.</li>
+        <li>Komunikasi jarak jauh jadi murah dan instan.</li>
+        <li>Membuka peluang usaha dan pekerjaan baru.</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">Dibuat oleh Cello Gemayel Aswan, NIM 2607441028, RKS 1B.</div>
+</footer>
+
+</body>
+</html>
